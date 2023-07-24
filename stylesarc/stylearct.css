@@ -1,0 +1,49 @@
+/* google font work sans  */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,800;1,700&family=Work+Sans:wght@400;500;700;800&display=swap');
+*{
+    font-family: 'Cookie', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/* header style  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
+/* nav style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+}
+/* style of ul in nav  */
+nav > ul{
+    display: flex;
+    padding-right: 150px;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+/* style of li in ul  */
+ nav li{
+    list-style: none;
+    margin: 30px;
+   
+   
+ }
+ /* style of a in li  */
+ nav li a{
+    text-decoration: none; 
+    color:#424242;
+ }
+
+ .nav-title{
+    color:  #131313;
+font-size: 45px;
+font-weight: 700;
+ 
+ }
+ 
