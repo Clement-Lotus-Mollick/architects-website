@@ -224,6 +224,8 @@ font-weight: 600;
 }
 
 
+
+
   /* this area only for resp  */
    /* responsive small nav part  */
 
@@ -303,5 +305,24 @@ font-weight: 600;
 
     .grid-txt-para{
         width: auto;
+    }
+   }
+
+   /* facts area respo small dv  */
+   @media screen and (max-width: 576px){
+    .facts-para{
+        width: auto;
+    }
+    .fact-cart{
+        flex-direction: column;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+   }
+
+   /* facts area respo mid dv  */
+   @media screen and (min-width: 576px) and (max-width: 960px) {
+    .some-facts{
+        padding: 30px;
     }
    }
