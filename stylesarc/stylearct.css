@@ -223,8 +223,155 @@ font-weight: 600;
  
 }
 
+/* sponsor style  */
+
+.spon-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.spon-div{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+     
+}
+
+.spon-ttl{
+    color:   #131313;
+ 
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+ 
+}
+
+.spon-para{
+    
+     
+    color:   #727272;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+ 
+}
+
+/* features  */
+.features{
+    display: flex;
+    margin: 70px 30px;
+    gap: 70px;
+}
+
+.new-cart{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.13);
+width: 586px;
+height: 171px;
+ 
+}
+
+.cart-new-head{
+    color: #131313;
+ 
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+ 
+}
+.cart-new-para{
+    color: #727272;
+    width: 514px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+ 
+}
+
+ .feature-heading{
+    width: 468px;
+    color:  #131313;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border-left: 4px solid orangered;
+padding-left: 15px;
+ }
+ .features-para{
+    width: 586px;
+    color:  #727272;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+ }
 
 
+ /* 10 years badge  */
+ .ten-years{
+    border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+width: 342px;
+height: 200px;
+position: relative;
+bottom: 100px;
+ }
+   .ten-years h1{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+padding-top: 40px;
+padding-left: 40px;
+padding-right: 40px;
+margin: 0;
+   }
+
+   .ten-years p{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+     margin-top: 0px;
+    
+   }
+   .feature-img img{
+    margin-left: 45px;
+   }
+
+   /* footer part last part  */
+
+footer{
+     
+height: 100px;
+border-radius: 8px;
+background: #FFF4E7;
+margin: 40px 40px;
+ text-align: center;
+ 
+}
+small{
+    color:   #424242;
+     
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+     padding-top: 40px;
+   
+}
+
+ 
 
   /* this area only for resp  */
    /* responsive small nav part  */
@@ -317,6 +464,7 @@ font-weight: 600;
         flex-direction: column;
         padding-left: 60px;
         padding-right: 50px;
+        gap: 5px;
     }
    }
 
@@ -325,4 +473,75 @@ font-weight: 600;
     .some-facts{
         padding: 30px;
     }
+    .fact-cart{
+        gap: 5px;
+    }
    }
+   /* responsive sponsor small d */
+   @media screen and (max-width: 576px) {
+    .spon-img{
+        flex-direction: column;
+    }
+    .spon-img-alig{
+        padding: 50px;
+        width: 150px;
+        margin-left: 55px;
+         
+    }
+   }
+
+   /* mid div  */
+   @media screen and (min-width: 576px) and (max-width: 960px) {
+    .spon-img{
+          padding-right: 25px;
+         
+    }
+   }
+
+   /* next  */
+   @media screen and (max-width: 576px) {
+    .features{
+        flex-direction: column;
+    }
+    .new-cart{
+        width: auto;
+    }
+    .cart-new-para{
+        width: auto;
+    }
+    .features-para{
+        width: auto;
+    }
+    .feature-heading{
+        width: auto;
+    }
+    .feature-img img{
+        margin-left: 0;
+        width: 300px;
+    }
+   }
+
+   @media screen and (min-width: 576px) and (max-width: 960px) {
+    .features{
+        flex-direction: column;
+    }
+    .new-cart{
+        width: auto;
+    }
+    .cart-new-para{
+        width: auto;
+    }
+    .features-para{
+        width: auto;
+    }
+    .feature-heading{
+        width: auto;
+    }
+    .feature-img img{
+        margin-left: 0;
+        width: 300px;
+    }
+   }
+
+   /* its done responsive for small and mid device checked for pixel 5 small plus rotate screen & pc screen 15 inch  */
+   /* PH batch 8 project by Clement Lotus Mollick  */
